@@ -1,7 +1,7 @@
 # tic-tac-toe-rep
 
 ## Descrição do projeto
-Hackenge da cadeira de Engenharia de Software que objetiva a construção de um projeto de backend baseado numa API Restful que funcione para um projeto de Jogo da Velha
+Hackenge da cadeira de Engenharia de Software que objetiva a construção de um projeto de backend baseado numa API Restful que funcione para um projeto de Jogo da Velha. A estrutura escolhida foi baseada num modelo de CRUD clássico que pode ser usado para as mais diversas aplicações, portanto, é altamente adaptável e adequado à situação.
 
 ## Resources
 
