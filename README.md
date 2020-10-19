@@ -74,7 +74,8 @@ Exemplo do objeto enviado:```
   "user_id": "viniciusdarosa",
   "senha": "samplepassword",
   "wins": Null,
-  "losses": Null
+  "losses": Null,
+  "invincible": Null
 }```
 Exemplo da resposta:```
 {
@@ -126,7 +127,7 @@ Exemplo da resposta:```
 
 
 #### ``` PATCH /ranking``` 
-Método chamado ao fim de cada partida que atualiza o número de vitórias ou derrotas de cada usuário
+Método chamado ao fim de cada partida que atualiza o número de vitórias ou derrotas de cada usuário, e a invencibilidade
 Exemplo do objeto enviado: ```
 {
 	"loser": "viniciusdarosa",
