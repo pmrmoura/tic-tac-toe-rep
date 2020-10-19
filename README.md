@@ -41,7 +41,7 @@ Exemplo do objeto enviado: ```
 {
 	"board_id": "1245",
 	"goal" : "restart",
-  "position": Null
+  	"position": Null
 }```
 Exemplo de resposta:```
 {
@@ -56,7 +56,7 @@ Método utilizado para deletar o tabuleiro, que só pode ser chamado pelo criado
 Exemplo do objeto enviado:```
 {
 	"board_id": "1245",
-  "user_id": "viniciusdarosa"
+	"user_id": "viniciusdarosa"
 }```
 Exemplo da resposta:```
 {
@@ -127,7 +127,7 @@ Exemplo da resposta:```
 
 
 #### ``` PATCH /ranking``` 
-Método chamado ao fim de cada partida que atualiza o número de vitórias ou derrotas de cada usuário, e a invencibilidade
+Método chamado ao fim de cada partida que atualiza o número de vitórias ou derrotas de cada usuário, e a invencibilidade.
 Exemplo do objeto enviado: ```
 {
 	"loser": "viniciusdarosa",
