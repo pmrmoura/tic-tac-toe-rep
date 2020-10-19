@@ -72,7 +72,9 @@ Método utilizado para criar o usuário.
 Exemplo do objeto enviado:```
 {
   "user_id": "viniciusdarosa",
-  "senha": "samplepassword"
+  "senha": "samplepassword",
+  "wins": Null,
+  "losses": Null
 }```
 Exemplo da resposta:```
 {
@@ -111,7 +113,30 @@ Exemplo da resposta: ```
 }```
 Exceção: senha ou user_id inválidos
 
+### /ranking
 
+#### ```GET /ranking```
+Obtém dinâmicamente o ranking dos usuários à partir do seu número de vitórias e derrotas e é uma função chamada ao fim de cada partida.
+Exemplo do objeto enviado: ``` 
+{}```
+Exemplo da resposta:``` 
+{
+  "rankinglist":[ ["viniciusdarosa","1"]] 
+}```
+
+
+#### ``` PATCH /ranking``` 
+Método chamado ao fim de cada partida que atualiza o número de vitórias ou derrotas de cada usuário
+Exemplo do objeto enviado: ```
+{
+	"loser": "viniciusdarosa",
+	"winner": "diegodiniz"
+}```
+Exemplo de resposta:```
+{
+	"board_id": "1245",
+	"Status":"Success"
+}```
 
 
 
