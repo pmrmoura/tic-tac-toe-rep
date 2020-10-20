@@ -31,7 +31,7 @@ Exemplo do objeto enviado:```
 Exemplo de resposta:``` 
 {
   "board_id":4321,
-  "action_status": "Sucess"
+  "action_status": "Success"
 }``` 
 Exceção: user_id inválido
 
@@ -80,7 +80,7 @@ Exemplo do objeto enviado:```
 Exemplo da resposta:```
 {
   "user_id": "viniciusdarosa",
-  "Status: "Sucesss"
+  "Status: "Successs"
 }``` 
 Exceção: Sem exceções
 
